@@ -537,7 +537,7 @@ body {
 	animation: image-4 5s ease;
 }
 
-@keyframes image-1 {
+/* @keyframes image-1 {
 	0% {
 		top: 50%;
 		left: 50%;
@@ -566,9 +566,9 @@ body {
 		right: 50%;
 		filter: grayscale(1);
 	}
-}
+} */
 
-/* @keyframes image-1 {
+@keyframes image-1 {
 	0% {
 		background-position: 0% 100%;
 		filter: grayscale(1);
@@ -593,7 +593,7 @@ body {
 		background-position: -100% 0%;
 		filter: grayscale(1);
 	}
-} */
+}
 
 /* ========== News mobile===================== */
 
