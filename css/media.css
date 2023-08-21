@@ -166,7 +166,7 @@
 	}
 	.news__image {
 		display: block;
-		width: 100%;
+		/* width: 100%; */
 		margin-bottom: 2.625rem;
 	}
 	.news__image img {
@@ -299,7 +299,9 @@
 		padding-top: 25px;
 		padding-bottom: 110px;
 	}
-
+	.footer__inner {
+		margin-bottom: 9.7rem;
+	}
 	.footer__triangle {
 		display: none;
 	}
