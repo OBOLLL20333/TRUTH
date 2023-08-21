@@ -48,7 +48,7 @@
 
 	.top {
 		padding-top: 4.6rem;
-		padding-bottom: 9.75rem;
+		padding-bottom: 0;
 	}
 	.top__grid {
 		margin-bottom: 4.2rem;
@@ -68,7 +68,7 @@
 		-webkit-box-align: center;
 		-ms-flex-align: center;
 		align-items: center;
-		padding-bottom: 3.125rem;
+		padding-bottom: 0;
 	}
 	.top__link-link {
 		text-transform: uppercase;
@@ -91,10 +91,15 @@
 	.box-image {
 		display: none;
 	}
+	.top__box {
+		display: none;
+	}
 
+	.top__body.without .top__box {
+		display: flex;
+	}
 	.with-ornaments {
 		margin-top: 96px;
-		margin-bottom: 66px;
 		display: none;
 	}
 	.with-ornaments__title {
@@ -153,9 +158,6 @@
 		display: none;
 	}
 
-	.news {
-		padding-bottom: 25px;
-	}
 	.news__navigation {
 		-webkit-box-pack: center;
 		-ms-flex-pack: center;
@@ -296,7 +298,7 @@
 	}
 
 	.footer {
-		padding-top: 25px;
+		padding-top: 0;
 		padding-bottom: 110px;
 	}
 	.footer__inner {

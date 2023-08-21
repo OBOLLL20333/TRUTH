@@ -52,7 +52,10 @@ if (topWith) {
 if (items) {
 	items.forEach(item => {
 		item.addEventListener('click', () => {
-			document.querySelector('.top__link-item.active').classList.remove('active');
+			if (document.querySelector('.top__link-item.active')) {
+				document.querySelector('.top__link-item.active').classList.remove('active');
+				item.classList.add('active');
+			}
 			item.classList.add('active');
 		})
 	})
