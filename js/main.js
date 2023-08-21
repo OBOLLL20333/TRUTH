@@ -55,8 +55,18 @@ if (items) {
 			if (document.querySelector('.top__link-item.active')) {
 				document.querySelector('.top__link-item.active').classList.remove('active');
 				item.classList.add('active');
+				window.scrollTo({
+					top: document.querySelector('.top__link-item.active').offsetTop - document.querySelector('.top__link-item.active').clientHeight * 2,
+					left: 0,
+					behavior: "smooth"
+				});
 			}
 			item.classList.add('active');
+			window.scrollTo({
+				top: document.querySelector('.top__link-item.active').offsetTop - document.querySelector('.top__link-item.active').clientHeight * 2,
+				left: 0,
+				behavior: "smooth"
+			});
 		})
 	})
 }

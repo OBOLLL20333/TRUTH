@@ -183,67 +183,7 @@
 	.news__title {
 		display: none;
 	}
-	.news__item-image {
-		position: relative;
-		width: 100vw;
-		height: 100vw;
-	}
-	.news__item-image-1 {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 50%;
-		height: 50%;
-		-webkit-transition: all 0.3s ease 0s;
-		-o-transition: all 0.3s ease 0s;
-		transition: all 0.3s ease 0s;
-		background: url(../images/cat14.jpg);
-		-webkit-animation: image-1 15s infinite;
-		animation: image-1 15s infinite;
-		background-position: 100% 100%;
-	}
-	.news__item-image-2 {
-		position: absolute;
-		top: 0;
-		right: 0;
-		width: 50%;
-		height: 50%;
-		-webkit-transition: all 0.3s ease 0s;
-		-o-transition: all 0.3s ease 0s;
-		transition: all 0.3s ease 0s;
-		background: url(../images/cat14.jpg);
-		-webkit-animation: image-2 15s infinite;
-		animation: image-2 15s infinite;
-		background-position: 0% 100%;
-	}
-	.news__item-image-3 {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 50%;
-		height: 50%;
-		-webkit-transition: all 0.3s ease 0s;
-		-o-transition: all 0.3s ease 0s;
-		transition: all 0.3s ease 0s;
-		background: url(../images/cat14.jpg);
-		-webkit-animation: image-3 15s infinite;
-		animation: image-3 15s infinite;
-		background-position: 0% 100%;
-	}
-	.news__item-image-4 {
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		width: 50%;
-		height: 50%;
-		-webkit-transition: all 0.3s ease 0s;
-		-o-transition: all 0.3s ease 0s;
-		transition: all 0.3s ease 0s;
-		background: url(../images/cat14.jpg);
-		-webkit-animation: image-4 15s infinite;
-		animation: image-4 15s infinite;
-		background-position: 100% 100%;
-	}
+
 	.box:last-child {
 		margin-bottom: 116px;
 	}

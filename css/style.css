@@ -318,8 +318,7 @@ body {
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 	background-position: 100% 100%;
-	-webkit-filter: brightness(40%);
-	filter: brightness(40%);
+	filter: grayscale(1);
 }
 .without-ornaments__item-image-2 {
 	position: absolute;
@@ -353,13 +352,11 @@ body {
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 	background-position: 0% 0%;
-	-webkit-filter: brightness(40%);
-	filter: brightness(40%);
+	filter: grayscale(1);
 }
 .without-ornaments__item-image.active .without-ornaments__item-image-1 {
 	background-position: 0% 0%;
-	-webkit-filter: brightness(100%);
-	filter: brightness(100%);
+	filter: grayscale(0);
 }
 .without-ornaments__item-image.active .without-ornaments__item-image-2 {
 	background-position: 100% 0%;
@@ -369,8 +366,7 @@ body {
 }
 .without-ornaments__item-image.active .without-ornaments__item-image-4 {
 	background-position: 100% 100%;
-	-webkit-filter: brightness(100%);
-	filter: brightness(100%);
+	filter: grayscale(0);
 }
 .without-ornaments__item-content {
 	margin-left: 3.125rem;
@@ -417,6 +413,7 @@ body {
 .news {
 	padding-top: 3.5625rem;
 	padding-bottom: 9.375rem;
+	overflow-x: hidden;
 }
 .news__body {
 	position: relative;
@@ -424,6 +421,9 @@ body {
 }
 .news__image {
 	display: none;
+}
+.news__image-box {
+	opacity: 0;
 }
 
 .news__navigation {
@@ -514,10 +514,9 @@ body {
 	top: 0;
 	left: 0;
 	background-position: 100vw 0%;
-	-webkit-filter: brightness(100%);
-	filter: brightness(100%);
+	filter: grayscale(0);
 	-webkit-animation: image-1 3s ease;
-	animation: image-1 3s ease;
+	animation: image-1 5s ease;
 }
 .news__image-2 {
 	top: 0;
@@ -525,49 +524,49 @@ body {
 
 	background-position: 50vw 0%;
 	-webkit-animation: image-2 3s ease;
-	animation: image-2 3s ease;
+	animation: image-2 5s ease;
 }
 .news__image-3 {
 	bottom: 0;
 	left: 0;
 	background-position: 100vw 100%;
 	-webkit-animation: image-3 3s ease;
-	animation: image-3 3s ease;
+	filter: grayscale(0);
+	animation: image-3 5s ease;
 }
 .news__image-4 {
 	bottom: 0;
 	right: 0;
 	background-position: 50vw 100%;
-	-webkit-filter: brightness(100%);
-	filter: brightness(100%);
+	filter: grayscale(0);
 	-webkit-animation: image-4 3s ease;
-	animation: image-4 3s ease;
+	animation: image-4 5s ease;
 }
 
 @keyframes image-1 {
 	0% {
 		background-position: 0% 100%;
-		-webkit-filter: brightness(20%);
-		filter: brightness(20%);
+		filter: grayscale(1);
 	}
 }
 @-webkit-keyframes image-2 {
 	0% {
 		background-position: -100% 100%;
+		filter: grayscale(1);
 	}
 }
 
 @keyframes image-3 {
 	0% {
 		background-position: 0% 0%;
+		filter: grayscale(1);
 	}
 }
 
 @keyframes image-4 {
 	0% {
 		background-position: -100% 0%;
-		-webkit-filter: brightness(20%);
-		filter: brightness(20%);
+		filter: grayscale(1);
 	}
 }
 
