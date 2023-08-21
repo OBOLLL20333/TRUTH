@@ -1,0 +1,207 @@
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: normal;
+	font-weight: 900;
+
+	src:
+		local("JoannaSansNovaBlk"),
+		url("../fonts/JoannaSansNovaBlk.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaBlk.otf") format("otf"),
+		url("../fonts/JoannaSansNovaBlk.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaBlk.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: italic;
+	font-weight: 900;
+
+	src:
+		local("JoannaSansNovaBlkIt"),
+		url("../fonts/JoannaSansNovaBlkIt.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaBlkIt.otf") format("otf"),
+		url("../fonts/JoannaSansNovaBlkIt.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaBlkIt.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: normal;
+	font-weight: 800;
+
+	src:
+		local("JoannaSansNovaExtBold"),
+		url("../fonts/JoannaSansNovaExtBold.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaExtBold.otf") format("otf"),
+		url("../fonts/JoannaSansNovaExtBold.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaExtBold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: italic;
+	font-weight: 800;
+
+	src:
+		local("JoannaSansNovaExtBoldIt"),
+		url("../fonts/JoannaSansNovaExtBoldIt.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaExtBoldIt.otf") format("otf"),
+		url("../fonts/JoannaSansNovaExtBoldIt.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaExtBoldIt.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: normal;
+	font-weight: 700;
+
+	src:
+		local("JoannaSansNovaBold"),
+		url("../fonts/JoannaSansNovaBold.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaBold.otf") format("otf"),
+		url("../fonts/JoannaSansNovaBold.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaBold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: italic;
+	font-weight: 700;
+
+	src:
+		local("JoannaSansNovaBoldIt"),
+		url("../fonts/JoannaSansNovaBoldIt.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaBoldIt.otf") format("otf"),
+		url("../fonts/JoannaSansNovaBoldIt.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaBoldIt.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: normal;
+	font-weight: 600;
+
+	src:
+		local("JoannaSansNovaBook"),
+		url("../fonts/JoannaSansNovaBook.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaBook.otf") format("otf"),
+		url("../fonts/JoannaSansNovaBook.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaBook.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: italic;
+	font-weight: 600;
+
+	src:
+		local("JoannaSansNovaBookIt"),
+		url("../fonts/JoannaSansNovaBookIt.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaBookIt.otf") format("otf"),
+		url("../fonts/JoannaSansNovaBookIt.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaBookIt.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: normal;
+	font-weight: 500;
+
+	src:
+		local("JoannaSansNovaMedium"),
+		url("../fonts/JoannaSansNovaMedium.ttf") format("ttf"),
+		а url("../fonts/JoannaSansNovaMedium.otf") format("otf"),
+		url("../fonts/JoannaSansNovaMedium.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaMedium.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: italic;
+	font-weight: 500;
+
+	src:
+		local("JoannaSansNovaMediumItalic"),
+		url("../fonts/JoannaSansNovaMediumItalic.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaMediumItalic.otf") format("otf"),
+		url("../fonts/JoannaSansNovaMediumItalic.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaMediumItalic.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: normal;
+	font-weight: 400;
+
+	src:
+		local("JoannaSansNovaRegular"),
+		url("../fonts/JoannaSansNovaRegular.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaRegular.otf") format("otf"),
+		url("../fonts/JoannaSansNovaRegular.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaRegular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: italic;
+	font-weight: 400;
+
+	src:
+		local("JoannaSansNovaItalic"),
+		url("../fonts/JoannaSansNovaItalic.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaItalic.otf") format("otf"),
+		url("../fonts/JoannaSansNovaItalic.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaItalic.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: normal;
+	font-weight: 300;
+
+	src:
+		local("JoannaSansNovaLight"),
+		url("../fonts/JoannaSansNovaLight.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaLight.otf") format("otf"),
+		url("../fonts/JoannaSansNovaLight.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaLight.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: italic;
+	font-weight: 300;
+
+	src:
+		local("JoannaSansNovaLightIt"),
+		url("../fonts/JoannaSansNovaLightIt.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaLightIt.otf") format("otf"),
+		url("../fonts/JoannaSansNovaLightIt.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaLightIt.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: normal;
+	font-weight: 100;
+
+	src:
+		local("JoannaSansNovaThin"),
+		url("../fonts/JoannaSansNovaThin.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaThin.otf") format("otf"),
+		url("../fonts/JoannaSansNovaThin.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaThin.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Joanna Sans Nova";
+	font-style: italic;
+	font-weight: 100;
+
+	src:
+		local("JoannaSansNovaThinIt"),
+		url("../fonts/JoannaSansNovaThinIt.ttf") format("ttf"),
+		url("../fonts/JoannaSansNovaThinIt.otf") format("otf"),
+		url("../fonts/JoannaSansNovaThinIt.woff2") format("woff2"),
+		url("../fonts/JoannaSansNovaThinIt.woff") format("woff");
+}
