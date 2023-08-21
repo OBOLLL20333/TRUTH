@@ -521,8 +521,8 @@ body {
 }
 .news__image-3 {
 	bottom: 0%;
-	right: 0%;
-	background-position: 100% 100%;
+	left: 0%;
+	background-position: 0% 100%;
 	-webkit-animation: image-3 3s ease;
 	filter: grayscale(0);
 	animation: image-3 5s ease;
