@@ -6,7 +6,7 @@ html {
 body {
 	font-family: "Joanna Sans Nova";
 	font-size: 1.8125rem;
-	line-height: 1.8125rem;
+	line-height: 1;
 	font-weight: 300;
 	color: #3c3c3c;
 	overflow-x: hidden;
@@ -151,25 +151,44 @@ body {
 	display: flex;
 	gap: 0 5rem;
 	padding-bottom: 3.125rem;
+	align-items: center;
 }
 .top__link {
 	display: none;
 }
 .top__grid {
 	-webkit-box-flex: 0;
-	-ms-flex: 0 1 50%;
-	flex: 0 1 50%;
+	-ms-flex: 0 1 800px;
+	flex: 0 1 800px;
 	overflow: hidden;
-	display: -ms-grid;
-	display: grid;
-	-ms-grid-columns: (1fr);
-	grid-template-columns: repeat(2, 1fr);
+	display: flex;
+	flex-wrap: wrap;
 }
 .top__grid-body {
 	overflow: hidden;
 	min-width: 0;
+	flex: 0 1 50%;
+}
+.top-slider {
+}
+.top-slider__wrapper {
+}
+.top-slider__slide {
+}
+.top-slider__image {
+}
+.top-slider__image img {
+	max-width: 100%;
+	display: block;
+	height: auto;
 }
 
+.swiper-container {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
 .top__box {
 	background-image: url(../images/button-2.png);
 	background-repeat: no-repeat;
@@ -199,7 +218,7 @@ body {
 .with-ornaments {
 	-webkit-box-flex: 0;
 	-ms-flex: 0 1 50%;
-	flex: 0 1 50%;
+	flex: 1 1 50%;
 	padding-bottom: 17rem;
 }
 .with-ornaments__title {
@@ -308,6 +327,7 @@ body {
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 	background-position: 0% 100%;
+	filter: grayscale(1);
 }
 .without-ornaments__item-image-3 {
 	position: absolute;
@@ -319,6 +339,7 @@ body {
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 	background-position: 100% 0%;
+	filter: grayscale(1);
 }
 .without-ornaments__item-image-4 {
 	position: absolute;
@@ -349,12 +370,6 @@ body {
 	filter: grayscale(0);
 }
 
-.without-ornaments__item-image-2-1,
-.without-ornaments__item-image-2-2,
-.without-ornaments__item-image-2-3,
-.without-ornaments__item-image-2-4 {
-	filter: grayscale(1);
-}
 .without-ornaments__item-content {
 	margin-left: 3.125rem;
 	padding-top: 2.1875rem;
@@ -388,12 +403,6 @@ body {
 	width: 3rem;
 	height: 5.1875rem;
 }
-.without-ornaments__item-img img {
-	width: 100%;
-	height: 100%;
-	-o-object-fit: cover;
-	object-fit: cover;
-}
 
 /* ========== News =========================== */
 .news {
@@ -410,6 +419,7 @@ body {
 }
 .news__image-box {
 	opacity: 0;
+	max-width: 100%;
 }
 
 .news__navigation {

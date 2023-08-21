@@ -10,13 +10,7 @@
 		-ms-flex-pack: center;
 		justify-content: center;
 	}
-	.with-ornaments,
-	.top__grid {
-		-webkit-box-flex: 0;
-		-ms-flex: 0 1 100%;
-		flex: 0 1 100%;
-		width: 100%;
-	}
+
 	.without-ornaments__item-triangle {
 		display: none;
 	}
@@ -60,20 +54,7 @@
 	.top__link {
 		display: block;
 	}
-	.top__flex {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		gap: 0;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
-		align-items: center;
-		padding-bottom: 0;
-	}
+
 	.top__link-link {
 		text-transform: uppercase;
 		background-color: inherit;
