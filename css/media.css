@@ -40,10 +40,15 @@
 		padding: 0;
 	}
 	.header {
-		background-color: transparent;
+		background-color: #fff;
+		overflow: hidden;
+	}
+	.header__title {
+		z-index: 1;
 	}
 	.header__subtitle {
 		font-size: 2.25rem;
+		padding-bottom: 1rem;
 	}
 
 	.top {
@@ -168,14 +173,11 @@
 	}
 	.news__image {
 		display: block;
-		/* width: 100%; */
 		margin-bottom: 2.625rem;
 	}
 	.news__image img {
-		width: 100%;
-		height: 100%;
-		-o-object-fit: cover;
-		object-fit: cover;
+	}
+	.news__image-box {
 	}
 	.news__title {
 		display: none;
