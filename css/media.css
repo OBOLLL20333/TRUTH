@@ -84,6 +84,7 @@
 		color: #f3300f;
 	}
 	.top__body.with .with-ornaments {
+		padding-bottom: 18rem;
 		display: block;
 	}
 	.top__body.without .without-ornaments {
