@@ -507,7 +507,7 @@ body {
 .news__image-1 {
 	top: 0%;
 	left: 0%;
-	background-position: 100vw 0%;
+	background-position: 0% 0%;
 	filter: grayscale(0);
 	-webkit-animation: image-1 3s ease;
 	animation: image-1 5s ease;
@@ -515,15 +515,14 @@ body {
 .news__image-2 {
 	top: 0%;
 	right: 0%;
-
-	background-position: 50vw 0%;
+	background-position: 100% 0%;
 	-webkit-animation: image-2 3s ease;
 	animation: image-2 5s ease;
 }
 .news__image-3 {
 	bottom: 0%;
-	left: 0%;
-	background-position: 100vw 100%;
+	right: 0%;
+	background-position: 100% 100%;
 	-webkit-animation: image-3 3s ease;
 	filter: grayscale(0);
 	animation: image-3 5s ease;
@@ -531,10 +530,10 @@ body {
 .news__image-4 {
 	bottom: 0%;
 	right: 0%;
-	background-position: 50vw 100%;
+	background-position: 100% 100%;
+	-webkit-animation: image-3 3s ease;
 	filter: grayscale(0);
-	-webkit-animation: image-4 3s ease;
-	animation: image-4 5s ease;
+	animation: image-3 5s ease;
 }
 
 /* @keyframes image-1 {
