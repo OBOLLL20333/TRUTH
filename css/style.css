@@ -360,13 +360,22 @@ body {
 }
 .without-ornaments__item-image.active .without-ornaments__item-image-2 {
 	background-position: 100% 0%;
+	filter: grayscale(0);
 }
 .without-ornaments__item-image.active .without-ornaments__item-image-3 {
 	background-position: 0% 100%;
+	filter: grayscale(0);
 }
 .without-ornaments__item-image.active .without-ornaments__item-image-4 {
 	background-position: 100% 100%;
 	filter: grayscale(0);
+}
+
+.without-ornaments__item-image-2-1,
+.without-ornaments__item-image-2-2,
+.without-ornaments__item-image-2-3,
+.without-ornaments__item-image-2-4 {
+	filter: grayscale(1);
 }
 .without-ornaments__item-content {
 	margin-left: 3.125rem;
