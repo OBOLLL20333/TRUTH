@@ -144,8 +144,7 @@ body {
 	padding-top: 7.5rem;
 	padding-bottom: 4.0625rem;
 }
-.top__body {
-}
+
 .top__flex {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -167,27 +166,10 @@ body {
 	grid-template-columns: repeat(2, 1fr);
 }
 .top__grid-body {
-	width: 100%;
 	overflow: hidden;
 	min-width: 0;
 }
 
-.swiper-container {
-	height: 100%;
-}
-.top-slider__wrapper {
-}
-
-.top-slider__image {
-	width: 100%;
-	height: 100%;
-}
-.top-slider__image img {
-	width: 100%;
-	height: 100%;
-	-o-object-fit: cover;
-	object-fit: cover;
-}
 .top__box {
 	background-image: url(../images/button-2.png);
 	background-repeat: no-repeat;
@@ -274,8 +256,7 @@ body {
 	color: #b11f75;
 	margin-bottom: 5.3125rem;
 }
-.without-ornaments__body {
-}
+
 .without-ornaments__item {
 	position: relative;
 	display: -webkit-box;
@@ -304,8 +285,7 @@ body {
 .without-ornaments__item-image {
 	position: relative;
 }
-.image-back {
-}
+
 .without-ornaments__item-image-1 {
 	position: absolute;
 	top: 0;
@@ -403,8 +383,7 @@ body {
 	font-size: 1.25rem;
 	font-style: italic;
 }
-.without-ornaments__item-svg {
-}
+
 .without-ornaments__item-img {
 	width: 3rem;
 	height: 5.1875rem;
@@ -508,42 +487,40 @@ body {
 	position: relative;
 }
 
-.anim-items {
-}
 .image {
 	position: absolute;
 	width: 50%;
 	height: 50%;
+	background-size: 200% 200%;
 }
-.news__image-box {
-}
+
 .news__image-1 {
-	top: 0;
-	left: 0;
+	top: 0%;
+	left: 0%;
 	background-position: 100vw 0%;
 	filter: grayscale(0);
 	-webkit-animation: image-1 3s ease;
 	animation: image-1 5s ease;
 }
 .news__image-2 {
-	top: 0;
-	right: 0;
+	top: 0%;
+	right: 0%;
 
 	background-position: 50vw 0%;
 	-webkit-animation: image-2 3s ease;
 	animation: image-2 5s ease;
 }
 .news__image-3 {
-	bottom: 0;
-	left: 0;
+	bottom: 0%;
+	left: 0%;
 	background-position: 100vw 100%;
 	-webkit-animation: image-3 3s ease;
 	filter: grayscale(0);
 	animation: image-3 5s ease;
 }
 .news__image-4 {
-	bottom: 0;
-	right: 0;
+	bottom: 0%;
+	right: 0%;
 	background-position: 50vw 100%;
 	filter: grayscale(0);
 	-webkit-animation: image-4 3s ease;
@@ -552,11 +529,42 @@ body {
 
 @keyframes image-1 {
 	0% {
+		top: 50%;
+		left: 50%;
+		filter: grayscale(1);
+	}
+}
+@keyframes image-2 {
+	0% {
+		top: 50%;
+		right: 50%;
+		filter: grayscale(1);
+	}
+}
+
+@keyframes image-3 {
+	0% {
+		bottom: 50%;
+		left: 50%;
+		filter: grayscale(1);
+	}
+}
+
+@keyframes image-4 {
+	0% {
+		bottom: 50%;
+		right: 50%;
+		filter: grayscale(1);
+	}
+}
+
+/* @keyframes image-1 {
+	0% {
 		background-position: 0% 100%;
 		filter: grayscale(1);
 	}
 }
-@-webkit-keyframes image-2 {
+@keyframes image-2 {
 	0% {
 		background-position: -100% 100%;
 		filter: grayscale(1);
@@ -575,7 +583,7 @@ body {
 		background-position: -100% 0%;
 		filter: grayscale(1);
 	}
-}
+} */
 
 /* ========== News mobile===================== */
 

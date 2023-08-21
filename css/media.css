@@ -20,11 +20,10 @@
 	.without-ornaments__item-triangle {
 		display: none;
 	}
-	.without-ornaments__item-image {
-	}
 	.without-ornaments__title {
 		text-align: center;
 	}
+
 	.footer-news__button {
 		margin-right: 0;
 	}
@@ -176,10 +175,7 @@
 		display: block;
 		margin-bottom: 2.625rem;
 	}
-	.news__image img {
-	}
-	.news__image-box {
-	}
+
 	.news__title {
 		display: none;
 	}
