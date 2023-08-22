@@ -18,8 +18,9 @@ new Swiper('.top-slider', {
 	direction: 'horizontal',
 	loop: true,
 	autoplay: {
-		delay: 5000,
+		delay: 2000,
 	},
+	allowTouchMove: false,
 });
 
 // Button get social

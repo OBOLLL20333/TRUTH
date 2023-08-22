@@ -15,10 +15,10 @@ body {
 /* ========== Общие стили ==================== */
 
 .container {
-	max-width: 1680px;
+	max-width: 1920px;
 	margin: 0 auto;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 7.5rem;
+	padding-right: 7.5rem;
 }
 
 .swiper {
@@ -102,9 +102,9 @@ body {
 	width: 0.125rem;
 	height: 4rem;
 	background-color: #5b5b5b;
-	-webkit-transform: rotateZ(-45deg);
-	-ms-transform: rotate(-45deg);
-	transform: rotateZ(-45deg);
+	-webkit-transform: rotateZ(-50deg);
+	-ms-transform: rotate(-50deg);
+	transform: rotateZ(-50deg);
 }
 
 .textbox p:not(:last-child) {
@@ -115,10 +115,12 @@ body {
 
 .header {
 	background-color: #140505;
-	padding: 6.25rem;
+	padding: 6.25rem 0 6.25rem;
 	position: relative;
+	margin: 4.6875rem 4.6875rem 0 4.6875rem;
 }
-
+.header__body {
+}
 .header__title {
 	color: #bb236b;
 	font-size: 4rem;
@@ -169,26 +171,13 @@ body {
 	min-width: 0;
 	flex: 0 1 50%;
 }
-.top-slider {
-}
-.top-slider__wrapper {
-}
-.top-slider__slide {
-}
-.top-slider__image {
-}
+
 .top-slider__image img {
 	max-width: 100%;
 	display: block;
 	height: auto;
 }
 
-.swiper-container {
-}
-.swiper-wrapper {
-}
-.swiper-slide {
-}
 .top__box {
 	background-image: url(../images/button-2.png);
 	background-repeat: no-repeat;
@@ -281,6 +270,7 @@ body {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	align-items: center;
 }
 .without-ornaments__item:not(:last-child) {
 	margin-bottom: 3.125rem;
@@ -303,8 +293,11 @@ body {
 
 .without-ornaments__item-image {
 	position: relative;
+	display: block;
 }
-
+.without-ornaments__item-image img {
+	max-width: 100%;
+}
 .without-ornaments__item-image-1 {
 	position: absolute;
 	top: 0;
@@ -316,6 +309,7 @@ body {
 	transition: all 0.3s ease 0s;
 	background-position: 100% 100%;
 	filter: grayscale(1);
+	background-size: 200% 200%;
 }
 .without-ornaments__item-image-2 {
 	position: absolute;
@@ -328,6 +322,7 @@ body {
 	transition: all 0.3s ease 0s;
 	background-position: 0% 100%;
 	filter: grayscale(1);
+	background-size: 200% 200%;
 }
 .without-ornaments__item-image-3 {
 	position: absolute;
@@ -340,6 +335,7 @@ body {
 	transition: all 0.3s ease 0s;
 	background-position: 100% 0%;
 	filter: grayscale(1);
+	background-size: 200% 200%;
 }
 .without-ornaments__item-image-4 {
 	position: absolute;
@@ -352,6 +348,7 @@ body {
 	transition: all 0.3s ease 0s;
 	background-position: 0% 0%;
 	filter: grayscale(1);
+	background-size: 200% 200%;
 }
 .without-ornaments__item-image.active .without-ornaments__item-image-1 {
 	background-position: 0% 0%;
@@ -373,6 +370,7 @@ body {
 .without-ornaments__item-content {
 	margin-left: 3.125rem;
 	padding-top: 2.1875rem;
+	flex: 0 1 74%;
 }
 .without-ornaments__item-title {
 	font-size: 2.25rem;
