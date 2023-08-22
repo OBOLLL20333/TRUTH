@@ -162,6 +162,9 @@
 		margin-left: 0;
 		flex: 1 1 auto;
 	}
+	.without-ornaments__item:nth-child(2n) .without-ornaments__item-img path {
+		stroke: #fff;
+	}
 	.without-ornaments__title {
 		display: none;
 	}
